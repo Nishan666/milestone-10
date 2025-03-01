@@ -1,5 +1,5 @@
 # Build the Docker image
-docker build -t my-vite-app .
+docker build -t milestone-admin .
 
 # Run the container
-docker run -p 8080:80 my-vite-app
+docker run -p 3001:80 milestone-admin
